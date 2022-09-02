@@ -471,9 +471,9 @@ html {
 }
 
 .course-category-item:hover {
-  background: var(--red-orange-color-wheel);
-  border-color: var(--red-orange-color-wheel);
-  box-shadow: 0 10px 50px -20px var(--red-orange-color-wheel);
+  background: var(--oxford-blue);
+  border-color: var(--oxford-blue);
+  box-shadow: 0 10px 50px -20px var(--oxford-blue);
 }
 
 .category-icon {
@@ -663,7 +663,7 @@ html {
 }
 
 .course-banner .orange {
-  background: var(--red-orange-color-wheel);
+  background: hsl(229, 84%, 12%);
 }
 
 .course-banner .blue {
@@ -687,9 +687,9 @@ html {
   transition: var(--default-transition);
 }
 
-.course-card:hover .card-title a {
+/* .course-card:hover .card-title a {
   color: var(--red-orange-color-wheel);
-}
+} */
 
 .course-card .wrapper {
   display: flex;
@@ -745,9 +745,28 @@ html {
 }
 
 .course-card .course-price {
-  color: var(--red-orange-color-wheel);
-  font-size: 20px;
+  color: var(--oxford-blue);
+  font-size: 18px;
   font-weight: var(--fw-7);
+}
+
+.course-view a {
+  font-size: 16px;
+  cursor: pointer;
+  border: solid 2px hsl(229, 84%, 12%);
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: hsl(229, 84%, 12%);
+  color: white;
+}
+
+.course-view a:hover {
+  background-color: white;
+  border: solid 2px hsl(229, 84%, 12%);
+  color: hsl(229, 84%, 12%);
 }
 
 .course-card .enrolled {
@@ -1091,7 +1110,7 @@ html {
 }
 
 .instructor-card:hover .instructor-name {
-  color: var(--red-orange-color-wheel);
+  color: var(--oxford-blue);
 }
 
 .instructor-title {
