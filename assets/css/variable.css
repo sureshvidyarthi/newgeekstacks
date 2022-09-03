@@ -20,7 +20,7 @@
    * colors 
    */
 
-  --red-orange-color-wheel: hsl(15, 100%, 55%);
+  --red-orange-color-wheel: hsl(272, 93%, 48%);
   --ultramarine-blue: hsl(217, 100%, 50%);
   --lavender-blue: hsl(229, 96%, 91%);
   --oxford-blue: hsl(229, 84%, 12%);
@@ -32,6 +32,7 @@
 
   /**
    * typography 
+  hsl(15, 100%, 55%)
    */
 
   --fs-1: 38px;

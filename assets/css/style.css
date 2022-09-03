@@ -295,7 +295,7 @@ html {
   width: 800px;
   height: 800px;
   border-radius: 50%;
-  background: radial-gradient(ellipse at center, hsla(217, 100%, 50%, 0.3), transparent 70%);
+  /* background: radial-gradient(ellipse at center, hsla(217, 100%, 50%, 0.3), transparent 70%); */
 }
 
 .home::after {
@@ -306,7 +306,7 @@ html {
   width: 800px;
   height: 800px;
   border-radius: 50%;
-  background: radial-gradient(ellipse at center, hsla(15, 100%, 55%, 0.3), transparent 70%);
+  /* background: radial-gradient(ellipse at center, hsla(15, 100%, 55%, 0.3), transparent 70%); */
 }
 
 .home .deco-shape {
@@ -825,7 +825,7 @@ html {
   align-items: center;
   gap: 20px;
   border-radius: 8px;
-  box-shadow: 0 10px 40px hsla(15, 100%, 55%, 0.7);
+  box-shadow: 0 10px 40px hsl(229, 84%, 12%);
 }
 
 .event .play-icon {
@@ -917,11 +917,11 @@ html {
 }
 
 .event-card:hover {
-  border-color: var(--red-orange-color-wheel);
+  border-color: var(--oxford-blue);
 }
 
 .event-card:hover .event-name {
-  color: var(--red-orange-color-wheel);
+  color: var(--oxford-blue);
 }
 
 
